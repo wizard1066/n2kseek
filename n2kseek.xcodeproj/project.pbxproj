@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		EF5645F020BBF8C600F500F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5645EF20BBF8C600F500F6 /* AppDelegate.swift */; };
-		EF5645F220BBF8C600F500F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5645F120BBF8C600F500F6 /* ViewController.swift */; };
 		EF5645F520BBF8C600F500F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF5645F320BBF8C600F500F6 /* Main.storyboard */; };
 		EF5645F720BBF8C900F500F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF5645F620BBF8C900F500F6 /* Assets.xcassets */; };
 		EF5645FA20BBF8C900F500F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF5645F820BBF8C900F500F6 /* LaunchScreen.storyboard */; };
+		EF56460220BBF99200F500F6 /* SeekingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF56460120BBF99200F500F6 /* SeekingViewController.swift */; };
+		EF56460420BBFA4200F500F6 /* SeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF56460320BBFA4200F500F6 /* SeekView.swift */; };
+		EF56460820BC028800F500F6 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF56460720BC028800F500F6 /* Utilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EF5645EC20BBF8C600F500F6 /* n2kseek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = n2kseek.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF5645EF20BBF8C600F500F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EF5645F120BBF8C600F500F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EF5645F420BBF8C600F500F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF5645F620BBF8C900F500F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF5645F920BBF8C900F500F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF5645FB20BBF8C900F500F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF56460120BBF99200F500F6 /* SeekingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeekingViewController.swift; sourceTree = "<group>"; };
+		EF56460320BBFA4200F500F6 /* SeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeekView.swift; sourceTree = "<group>"; };
+		EF56460720BC028800F500F6 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				EF5645EF20BBF8C600F500F6 /* AppDelegate.swift */,
-				EF5645F120BBF8C600F500F6 /* ViewController.swift */,
 				EF5645F320BBF8C600F500F6 /* Main.storyboard */,
+				EF56460320BBFA4200F500F6 /* SeekView.swift */,
+				EF56460120BBF99200F500F6 /* SeekingViewController.swift */,
+				EF56460720BC028800F500F6 /* Utilities.swift */,
 				EF5645F620BBF8C900F500F6 /* Assets.xcassets */,
 				EF5645F820BBF8C900F500F6 /* LaunchScreen.storyboard */,
 				EF5645FB20BBF8C900F500F6 /* Info.plist */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF5645F220BBF8C600F500F6 /* ViewController.swift in Sources */,
 				EF5645F020BBF8C600F500F6 /* AppDelegate.swift in Sources */,
+				EF56460420BBFA4200F500F6 /* SeekView.swift in Sources */,
+				EF56460820BC028800F500F6 /* Utilities.swift in Sources */,
+				EF56460220BBF99200F500F6 /* SeekingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
